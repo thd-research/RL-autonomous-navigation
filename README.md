@@ -88,6 +88,7 @@ To execute benchmarking, run the gazebo simulation world (here, and further all 
 ```
 roslaunch mir_gazebo mir_maze_world.launch
 rosservice call /gazebo/unpause_physics   # or click the "start" button in the Gazebo GUI
+rviz -d $(rospack find mir_navigation)/rviz/navigation.rviz
 ```
 
 Now, you can launch `rcognita`
