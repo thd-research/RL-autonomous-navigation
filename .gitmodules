@@ -1,0 +1,3 @@
+[submodule "mir_robot"]
+	path = mir_robot
+	url = git@github.com:thd-research/mir_robot.git
